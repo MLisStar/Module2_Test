@@ -20,9 +20,9 @@ h1
 }
 .content
 {
-	background-color: grey;
+	background-color: #6724D4;
 	margin: 20px 20px;
-	border: 3px solid black;
+	border: 1px solid black;
 }
 section div div
 {
@@ -31,12 +31,15 @@ section div div
 	top: 0;
 	right: 0;
 	font-size: 125%;
-	border: 2px solid black;
+	border: 1px solid black;
+	padding: 0px 20px 0px 20px;
 }
 p
 {
 	clear: right;
 	padding:10px;
+	font-size: 100%;
+	color: white;
 }
 .title_section1{color: black; background-color: pink;}
 .title_section2{color: white; background-color: red;}
@@ -51,10 +54,14 @@ p
 
 }
 @media (min-width: 768px) and (max-width: 991px){
-	.col_md_2
-	{
+	.col_md_2{
 		float: left;
 		width:50%;
+	}
+	.col_md_1{
+		float: left;
+		width:100%;
+		position: relative;
 	}
 	
 }
@@ -64,4 +71,5 @@ p
 		float: left;
 		width:100%;
 
+}
 }
